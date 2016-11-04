@@ -1,3 +1,5 @@
+package cards;
+
 public class Clubs implements Card {
 
     private int color = 2;

@@ -1,7 +1,12 @@
+import cards.Card;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
+/**
+ * The Swing implementation and representation of the game CardGame.
+ */
 public class SwingImpl {
 
     private CardGame cg;
@@ -31,6 +36,9 @@ public class SwingImpl {
         swingImpl.fillPanelsWithContent();
     }
 
+    /**
+     * Prepares the main frame with all the objects that are about to show.
+     */
     private void prepareGUI(){
         mainFrame = new JFrame("CardGame");
         mainFrame.setSize(440,440);
@@ -83,6 +91,9 @@ public class SwingImpl {
         mainFrame.setVisible(true);
     }
 
+    /**
+     * Fills the frames with content.
+     */
     private void fillPanelsWithContent(){
         headerText.setText("CardGame 1.0");
         statusTextTitle.setText("Current card");
@@ -113,6 +124,9 @@ public class SwingImpl {
         mainFrame.setVisible(true);
     }
 
+    /**
+     * Listener class for the buttons in the SwingImpl.
+     */
     private class OnClickListener implements ActionListener{
         public void actionPerformed(ActionEvent e) {
             String command = e.getActionCommand();

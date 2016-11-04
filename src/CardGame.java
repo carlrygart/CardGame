@@ -1,9 +1,11 @@
+import cards.Card;
+
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Random;
 
 /**
- * Main model class for the game.
+ * Main model class for the game CardGame.
  */
 public class CardGame {
 

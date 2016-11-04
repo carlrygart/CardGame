@@ -1,3 +1,5 @@
+package cards;
+
 /**
  * This interface is used for the four different card classes. However, this can also be used for other
  * types of cards, ie. Jokers etc.
@@ -11,7 +13,7 @@ public interface Card {
     int getDenomination();
 
     /**
-     * Returns the color index of the card (ie Hearts, Diamonds etc.)
+     * Returns the color index of the card (ie cards.Hearts, cards.Diamonds etc.)
      * @return The color index.
      */
     int getColor();

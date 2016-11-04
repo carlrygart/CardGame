@@ -1,11 +1,13 @@
-public class Spades implements Card {
+package cards;
 
-    private int color = 3;
-    private String colorString = "Spades";
+public class Diamonds implements Card {
+
+    private int color = 1;
+    private String colorString = "Diamonds";
     private int denomination;
     private String denominationString;
 
-    public Spades(int denomination, String denominationString) {
+    public Diamonds(int denomination, String denominationString) {
         this.denomination = denomination;
         this.denominationString = denominationString;
     }
