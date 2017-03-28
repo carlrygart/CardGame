@@ -33,7 +33,7 @@ public class CardGameTest {
     @Test
     public void draw() throws Exception {
         cg.sort();
-        assertEquals("Ace of Hearts", cg.draw().toString());
+        assertEquals("Ace of Hearts", cg.draw().toString() );
         assertEquals("Ace of Hearts", cg.draw().toString());
         assertEquals("Two of Hearts", cg.draw().toString());
         assertEquals("Two of Hearts", cg.draw().toString());
